@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" modified="2024-02-08T07:55:32.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="JxKZYClKCKvCpM7Y54TQ" version="23.1.2" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="2049" dy="2230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tL--wQGstm_6XkyzvsKM-485" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="330" width="580" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-484" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.606;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tL--wQGstm_6XkyzvsKM-483" target="tL--wQGstm_6XkyzvsKM-480" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-483" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-270" width="1790" height="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-2" value="Pet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="210" width="180" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-3" value="String name&lt;br&gt;String skills&lt;br&gt;String color&lt;br&gt;String breed&lt;br&gt;String age&lt;br&gt;String birthdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-2" vertex="1">
+          <mxGeometry y="30" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-4" value="super (name, skills, color, breed, age, birthday)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-2" vertex="1">
+          <mxGeometry y="150" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-5" value="@override&lt;br&gt;displayCommands()&lt;br&gt;teachNewCommands(String command)&lt;br&gt;toChangeBreed(String changeBreed)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-2" vertex="1">
+          <mxGeometry y="270" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-473" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1.005;exitY=0.394;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tL--wQGstm_6XkyzvsKM-8" target="tL--wQGstm_6XkyzvsKM-469" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="601" y="840" />
+              <mxPoint x="1520" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-6" value="Pack" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="690" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-7" value="String name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String skills&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String color&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String breed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String age&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String birthdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-6" vertex="1">
+          <mxGeometry y="30" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-8" value="super (name, skills, color, breed, age, birthday)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-6" vertex="1">
+          <mxGeometry y="130" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-9" value="@override&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;displayCommands()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;teachNewCommands(String command)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;toChangeBreed(String changeBreed)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-6" vertex="1">
+          <mxGeometry y="190" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tL--wQGstm_6XkyzvsKM-10" target="tL--wQGstm_6XkyzvsKM-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="150" />
+              <mxPoint x="340" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-10" value="abstract (Animal)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="130" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-11" value="String name&lt;br&gt;String skills&lt;br&gt;String color&amp;nbsp;&lt;br&gt;String breed&lt;br&gt;String age&lt;br&gt;String birthdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-10" vertex="1">
+          <mxGeometry y="30" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="50" y="280" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-18" value="getName()&lt;br&gt;getSkills()&lt;br&gt;getColor()&lt;br&gt;getBrred()&lt;br&gt;getAge()&lt;br&gt;setBreed(String toChangeBreed)&lt;br&gt;setSkills(String updateSkills)&lt;br&gt;getBirthdate()&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="290" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="50" y="470" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-20" value="abstract void displayCommands()&lt;br&gt;&lt;br&gt;abstract&amp;nbsp; void teachNewCommands(String command)&lt;br&gt;&lt;br&gt;abstract void toChangeBreed(String changeBreed)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="485" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tL--wQGstm_6XkyzvsKM-11" target="tL--wQGstm_6XkyzvsKM-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="150" />
+              <mxPoint x="340" y="150" />
+              <mxPoint x="340" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-24" value="Cat" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="20" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-25" value="String name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String skills&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String color&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String breed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String age&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String birthdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-24" vertex="1">
+          <mxGeometry y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-26" value="super (name, skills, color, breed, age, birthday)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-24" vertex="1">
+          <mxGeometry y="130" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-27" value="@override&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;displayCommands()&lt;br&gt;&amp;nbsp;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;teachNewCommands(String command)&lt;br&gt;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;toChangeBreed(String changeBreed)&lt;br&gt;Условие выполнения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-24" vertex="1">
+          <mxGeometry y="180" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-453" value="Hamster" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="20" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-454" value="String name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String skills&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String color&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String breed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String age&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String birthdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-453" vertex="1">
+          <mxGeometry y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-455" value="super (name, skills, color, breed, age, birthday)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-453" vertex="1">
+          <mxGeometry y="130" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-456" value="@override&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;displayCommands()&lt;br&gt;&amp;nbsp;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;teachNewCommands(String command)&lt;br&gt;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;toChangeBreed(String changeBreed)&lt;br&gt;Условие выполнения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-453" vertex="1">
+          <mxGeometry y="180" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-457" value="Dog" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="20" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-458" value="String name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String skills&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String color&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String breed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String age&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String birthdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-457" vertex="1">
+          <mxGeometry y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-459" value="super (name, skills, color, breed, age, birthday)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-457" vertex="1">
+          <mxGeometry y="130" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-460" value="@override&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;displayCommands()&lt;br&gt;&amp;nbsp;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;teachNewCommands(String command)&lt;br&gt;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;toChangeBreed(String changeBreed)&lt;br&gt;Условие выполнения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-457" vertex="1">
+          <mxGeometry y="180" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-461" value="Camel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="970" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-462" value="String name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String skills&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String color&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String breed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String age&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String birthdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-461" vertex="1">
+          <mxGeometry y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-463" value="super (name, skills, color, breed, age, birthday)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-461" vertex="1">
+          <mxGeometry y="130" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-464" value="@override&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;displayCommands()&lt;br&gt;&amp;nbsp;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;teachNewCommands(String command)&lt;br&gt;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;toChangeBreed(String changeBreed)&lt;br&gt;Условие выполнения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-461" vertex="1">
+          <mxGeometry y="180" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-465" value="Horse" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="970" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-466" value="String name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String skills&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String color&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String breed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String age&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String birthdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-465" vertex="1">
+          <mxGeometry y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-467" value="super (name, skills, color, breed, age, birthday)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-465" vertex="1">
+          <mxGeometry y="130" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-468" value="@override&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;displayCommands()&lt;br&gt;&amp;nbsp;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;teachNewCommands(String command)&lt;br&gt;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;toChangeBreed(String changeBreed)&lt;br&gt;Условие выполнения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-465" vertex="1">
+          <mxGeometry y="180" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-469" value="Donkey" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="970" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-470" value="String name&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String skills&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String color&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String breed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String age&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;String birthdate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-469" vertex="1">
+          <mxGeometry y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-471" value="super (name, skills, color, breed, age, birthday)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-469" vertex="1">
+          <mxGeometry y="130" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-472" value="@override&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;displayCommands()&lt;br&gt;&amp;nbsp;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;teachNewCommands(String command)&lt;br&gt;Условие выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;toChangeBreed(String changeBreed)&lt;br&gt;Условие выполнения" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-469" vertex="1">
+          <mxGeometry y="180" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-474" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tL--wQGstm_6XkyzvsKM-8" target="tL--wQGstm_6XkyzvsKM-465" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-475" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tL--wQGstm_6XkyzvsKM-8" target="tL--wQGstm_6XkyzvsKM-461" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-476" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.549;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tL--wQGstm_6XkyzvsKM-4" target="tL--wQGstm_6XkyzvsKM-456" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-477" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.535;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tL--wQGstm_6XkyzvsKM-4" target="tL--wQGstm_6XkyzvsKM-460" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-478" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tL--wQGstm_6XkyzvsKM-4" target="tL--wQGstm_6XkyzvsKM-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-479" value="database" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="410" width="340" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="tL--wQGstm_6XkyzvsKM-480" value="addAnimal()&lt;br&gt;&lt;br&gt;&lt;br&gt;displayAnimalCommands(String name)&lt;br&gt;&lt;br&gt;reachNewCommands(String name)&lt;br&gt;&lt;br&gt;toChangeBreed(String name, String changeBreed)&lt;br&gt;&lt;br&gt;loadDateBase()&lt;br&gt;&lt;br&gt;sortAnimalsByBirthdate()&lt;br&gt;&lt;br&gt;displayAllAnimals()&lt;br&gt;&lt;br&gt;saveDataBase()&lt;br&gt;&lt;br&gt;deleteAnimal(String name)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="tL--wQGstm_6XkyzvsKM-479" vertex="1">
+          <mxGeometry y="30" width="340" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
